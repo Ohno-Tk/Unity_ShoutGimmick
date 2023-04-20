@@ -19,6 +19,6 @@ public class test : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log("現在のデシベル："+(micAS.GetNow_dB + 80 ));
+        //Debug.Log("現在のデシベル："+(micAS.GetNow_dB + 80 ));
     }
 }
