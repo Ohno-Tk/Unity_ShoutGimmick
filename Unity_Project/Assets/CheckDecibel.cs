@@ -27,15 +27,18 @@ public class CheckDecibel : MonoBehaviour
         Debug.Log("現在のデシベル："+(micAS.GetNow_dB + 80 ));
 
         // 大声時
-        if(50 <= micAS.GetNow_dB + 80)
+        if(Input.GetKey (KeyCode.DownArrow))
+        //if(50 <= micAS.GetNow_dB + 80)
         {
             Effect.GetComponent<Image>().enabled = true;
             WindowsCapture.GetComponent<SizeUpDown>().SizeUp();
+            WindowsCapture.GetComponent<RawImage>().color = new Color(1.0f,1.0f,1.0f,0.8f);
         }
         else
         {
             Effect.GetComponent<Image>().enabled = false;
             WindowsCapture.GetComponent<SizeUpDown>().Sizedown();
+            WindowsCapture.GetComponent<RawImage>().color = new Color(1.0f,1.0f,1.0f,1.0f);
         }
     }
 }
