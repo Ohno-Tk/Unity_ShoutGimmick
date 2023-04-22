@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638174231181122149
-    m_Hash: 4102445101
+      ticks: 638176238193828782
+    m_Hash: 3291448352
   m_LockFileStatus:
     m_FilePath: D:/programming/Unity_ShoutGimmick/Unity_Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638174231181591480
-    m_Hash: 2729937165
+      ticks: 638176238194192877
+    m_Hash: 569073830
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -318,13 +318,15 @@ m_ResolvedPackages:
     - 3.0.17
     - 3.0.18
     - 3.0.20
+    - 3.0.21
     compatible:
     - 3.0.15
     - 3.0.16
     - 3.0.17
     - 3.0.18
     - 3.0.20
-    verified: 3.0.20
+    - 3.0.21
+    verified: 3.0.21
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
