@@ -15,6 +15,10 @@ public class CheckDecibel : MonoBehaviour
     [SerializeField]
     private GameObject WindowsCapture = null;
 
+    // デシベル規定値
+    [SerializeField]
+    private float MinDecibel = 40.0f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +31,8 @@ public class CheckDecibel : MonoBehaviour
         Debug.Log("現在のデシベル："+(micAS.GetNow_dB + 80 ));
 
         // 大声時
-        if(Input.GetKey (KeyCode.DownArrow))
-        //if(50 <= micAS.GetNow_dB + 80)
+        //if(Input.GetKey (KeyCode.DownArrow))
+        if(MinDecibel <= micAS.GetNow_dB + 80)
         {
             Effect.GetComponent<Image>().enabled = true;
             WindowsCapture.GetComponent<SizeUpDown>().SizeUp();

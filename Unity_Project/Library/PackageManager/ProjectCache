@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638179340343491233
-    m_Hash: 2312342987
+      ticks: 638179366673494018
+    m_Hash: 4169094580
   m_LockFileStatus:
     m_FilePath: D:/programming/Unity_ShoutGimmick/Unity_Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638179340344447470
-    m_Hash: 2060154857
+      ticks: 638179366673503990
+    m_Hash: 716814367
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
