@@ -332,6 +332,7 @@
 -r:"D:/Unity/2022.1.10f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/io.github.ruccho.graphicscapture.editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/io.github.ruccho.graphicscapture.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/SingletonMonoBehaviour.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -346,6 +347,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.TextMeshPro.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Timeline.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.UniWindowController.Editor.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Unity.UniWindowController.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Core.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VisualScripting.Flow.Editor.ref.dll"
@@ -360,8 +363,15 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/CaptureSample.cs"
 "Assets/CheckDecibel.cs"
+"Assets/Kirurobo/UniWindowController/Samples/00_Menu/SampleManager.cs"
+"Assets/Kirurobo/UniWindowController/Samples/02_UiSample/UiSampleController.cs"
+"Assets/Kirurobo/UniWindowController/Samples/03_Fullscreen/FullscreenSample.cs"
+"Assets/Kirurobo/UniWindowController/Samples/04_FileDialog/FileDialogSample.cs"
+"Assets/Kirurobo/UniWindowController/Samples/Common/AutoRotator.cs"
+"Assets/Kirurobo/UniWindowController/Samples/Common/ModelController.cs"
 "Assets/MicAudioSource.cs"
 "Assets/SizeUpDown.cs"
+"Assets/StartSetting.cs"
 -langversion:9.0
 
 /deterministic

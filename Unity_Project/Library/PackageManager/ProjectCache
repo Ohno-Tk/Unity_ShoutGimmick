@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638176238193828782
-    m_Hash: 3291448352
+      ticks: 638179340343491233
+    m_Hash: 2312342987
   m_LockFileStatus:
     m_FilePath: D:/programming/Unity_ShoutGimmick/Unity_Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638176238194192877
-    m_Hash: 569073830
+      ticks: 638179340344447470
+    m_Hash: 2060154857
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1081,6 +1081,51 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.7.8
+    nextVersion: 
+- packageId: com.xjine.singleton_mono_behaviour@https://github.com/XJINE/Unity_SingletonMonoBehaviour.git?path=Assets/Packages/SingletonMonoBehaviour
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 5
+  resolvedPath: D:\programming\Unity_ShoutGimmick\Unity_Project\Library\PackageCache\com.xjine.singleton_mono_behaviour@f904ac27b2
+  assetPath: Packages/com.xjine.singleton_mono_behaviour
+  name: com.xjine.singleton_mono_behaviour
+  displayName: Singleton Mono Behaviour
+  author:
+    name: XJINE
+    email: 
+    url: https://github.com/XJINE
+  category: 
+  type: 
+  description: Generic SingletonMonoBehaviour class.
+  status: 4
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    verified: 
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: io.github.ruccho.graphicscapture@https://github.com/ruccho/UnityGraphicsCapture.git?path=/UnityGraphicsCapture/Packages/io.github.ruccho.graphicscapture
   testable: 0
