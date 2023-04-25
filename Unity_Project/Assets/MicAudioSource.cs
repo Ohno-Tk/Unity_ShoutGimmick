@@ -1,3 +1,8 @@
+/**
+<summary>
+マイクデシベル取得
+</summary>
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,6 +21,7 @@ class MicAudioSource : MonoBehaviour
     private float Now_dB;// 現在のdB値
 
     public float GetNow_dB { get { return Now_dB; } }
+    public float GetNow_dB_Normalize { get { return Now_dB + 80; } }
 
     void Start()
     {
@@ -36,9 +42,11 @@ class MicAudioSource : MonoBehaviour
         }
     }
 
-    /*
-        function: マイクスタート
-        param MicDeviceName: マイクデバイス名
+    /**
+    <summary>
+    マイクスタート
+    </summary>
+    <param name="MicDeviceName">マイクデバイス名</param>
     */
     public void MicStart(string MicDeviceName)
     {
@@ -54,8 +62,10 @@ class MicAudioSource : MonoBehaviour
         micAS.Play();
     }
 
-    /*
-        function: デシベル変換
+    /**
+    <summary>
+    デシベル変換
+    </summary>
     */
     private void Sound_pressureToDecibel()
     {

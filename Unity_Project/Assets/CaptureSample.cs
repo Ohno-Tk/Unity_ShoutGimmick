@@ -1,3 +1,11 @@
+/**
+<summary>
+ウィンドウキャプチャ
+
+・参考サイト
+https://github.com/ruccho/UnityGraphicsCapture
+</summary>
+*/
 using System.Collections.Generic;
 using System.Linq;
 using Ruccho.GraphicsCapture;
