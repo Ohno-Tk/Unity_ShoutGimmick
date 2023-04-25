@@ -1,3 +1,8 @@
+/**
+<summary>
+デシベルチェック
+</summary>
+*/
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -19,29 +24,24 @@ public class CheckDecibel : MonoBehaviour
     [SerializeField]
     private float MinDecibel = 40.0f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
     // Update is called once per frame
     void Update()
     {
 
-        Debug.Log("現在のデシベル："+(micAS.GetNow_dB + 80 ));
+        Debug.Log("現在のデシベル："+(micAS.GetNow_dB_Normalize ));
 
         // 大声時
-        //if(Input.GetKey (KeyCode.DownArrow))
-        if(MinDecibel <= micAS.GetNow_dB + 80)
+        if(Input.GetKey (KeyCode.DownArrow))
+        //if(MinDecibel <= micAS.GetNow_dB_Normalize)
         {
             Effect.GetComponent<Image>().enabled = true;
-            WindowsCapture.GetComponent<SizeUpDown>().SizeUp();
+            WindowsCapture.GetComponent<SizeUpDown>().SizeChange(new Vector2(1920, 1080));
             WindowsCapture.GetComponent<RawImage>().color = new Color(1.0f,1.0f,1.0f,0.8f);
         }
         else
         {
             Effect.GetComponent<Image>().enabled = false;
-            WindowsCapture.GetComponent<SizeUpDown>().Sizedown();
+            WindowsCapture.GetComponent<SizeUpDown>().SizeChange(new Vector2(1024, 576));
             WindowsCapture.GetComponent<RawImage>().color = new Color(1.0f,1.0f,1.0f,1.0f);
         }
     }
