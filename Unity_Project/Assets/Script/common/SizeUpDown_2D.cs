@@ -7,7 +7,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SizeUpDown : MonoBehaviour
+public class SizeUpDown_2D : MonoBehaviour
 {
     /**
     <summary>

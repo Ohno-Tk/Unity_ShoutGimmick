@@ -361,17 +361,18 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/CaptureSample.cs"
-"Assets/CheckDecibel.cs"
 "Assets/Kirurobo/UniWindowController/Samples/00_Menu/SampleManager.cs"
 "Assets/Kirurobo/UniWindowController/Samples/02_UiSample/UiSampleController.cs"
 "Assets/Kirurobo/UniWindowController/Samples/03_Fullscreen/FullscreenSample.cs"
 "Assets/Kirurobo/UniWindowController/Samples/04_FileDialog/FileDialogSample.cs"
 "Assets/Kirurobo/UniWindowController/Samples/Common/AutoRotator.cs"
 "Assets/Kirurobo/UniWindowController/Samples/Common/ModelController.cs"
-"Assets/MicAudioSource.cs"
-"Assets/SizeUpDown.cs"
-"Assets/StartSetting.cs"
+"Assets/Script/CaptureSample.cs"
+"Assets/Script/CheckDecibel.cs"
+"Assets/Script/common/Application_Quit.cs"
+"Assets/Script/common/SizeUpDown_2D.cs"
+"Assets/Script/MicAudioSource.cs"
+"Assets/Script/StartSetting.cs"
 -langversion:9.0
 
 /deterministic
