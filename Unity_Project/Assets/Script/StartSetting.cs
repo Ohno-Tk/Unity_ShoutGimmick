@@ -18,10 +18,18 @@ public class StartSetting : MonoBehaviour
     [SerializeField]
     private GameObject DecibelUI = null;
 
+    [SerializeField]
+    private GameObject CheckDecibelUI_Text = null;
+
+    [SerializeField]
+    private GameObject CheckSlider = null;
+
     // Start is called before the first frame update
     void Start()
     {
         Screen.SetResolution(1920, 1080, false);
+
+        CheckSlider.GetComponent<Slider>().value = micAS.GetComponent<CheckDecibel>().GetChkDecibel();
     }
 
     // Update is called once per frame
@@ -34,5 +42,9 @@ public class StartSetting : MonoBehaviour
         }
 
         DecibelUI.GetComponent<Text>().text = "現在のデシベル数：" + Mathf.Floor(micAS.GetNow_dB_Normalize) + "デシベル";
+
+        CheckDecibelUI_Text.GetComponent<Text>().text = "チェックするデシベル数：" + Mathf.Floor(micAS.GetComponent<CheckDecibel>().GetChkDecibel()) + "デシベル";
+
+        micAS.GetComponent<CheckDecibel>().SetChkDecibel(CheckSlider);
     }
 }
